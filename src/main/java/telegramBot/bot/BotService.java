@@ -28,8 +28,7 @@ public class BotService {
     @Value("${bot.token}")
     private String token;
 
-    @Value("${offset}")
-    private Integer offset;
+    private Integer offset=1;
 
     public void start() throws InterruptedException {
         while (true) {
