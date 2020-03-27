@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import telegramBot.bot.BotService;
+import telegramBot.service.BotService;
 
 @Slf4j
 @ComponentScan(basePackages = "telegramBot")

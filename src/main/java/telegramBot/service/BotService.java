@@ -1,4 +1,4 @@
-package telegramBot.bot;
+package telegramBot.service;
 
 
 import lombok.extern.slf4j.Slf4j;
@@ -9,7 +9,6 @@ import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.client.WebClient;
-import telegramBot.service.CityService;
 import telegramBot.update.Message;
 import telegramBot.update.Result;
 import telegramBot.update.Update;
